@@ -1,0 +1,21 @@
+[
+  {
+    "name": "cmd",
+    "doc": "Api指令",
+    "result": "ApiDemo.user",
+    "params": [
+      { "name": "param1", "doc": "参数1", "type": "String" },
+      { "name": "param2", "doc": "参数2", "type": "String" }
+    ]
+  },
+  
+  {
+    "name": "cmd2",
+    "doc": "Api指令2",
+    "result": "ApiDemo.user",
+    "params": [
+      { "name": "param3", "doc": "参数3", "type": "String" },
+      { "name": "param4", "doc": "参数4", "type": "Number" }
+    ]
+  }
+]

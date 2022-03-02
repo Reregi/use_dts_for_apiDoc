@@ -1,0 +1,26 @@
+{
+  "name": "use-dts-for-apiDoc",
+  "version": "1.0.0",
+  "description": "使用typescript声明文件用作api文档",
+  "main": "lib/index.common.js",
+  "module": "lib/index.esm.js",
+  "repository": "git@github.com:Reregi/use_dts_for_apiDoc.git",
+  "author": "reregi <woxieric@live.cn>",
+  "license": "MIT",
+  "scripts": {
+    "lib": "rollup -c",
+    "npm pack": "npm pack"
+  },
+  "typings": "types/index.d.ts",
+  "files": [
+    "lib",
+    "src",
+    "types"
+  ],
+  "devDependencies": {
+    "rollup": "^2.68.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "^4.6.2"
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "userType",
+    "text": {
+      "url": "com.apiDemo",
+      "data": [
+        { "doc": "管理员", "name": "ADMIN", "type": "0" },
+        { "doc": "普通用户", "name": "NORMAL", "type": "1" }
+      ]
+    }
+  },
+  {
+    "name": "timeType",
+    "text": {
+      "url": "com.apiDemo",
+      "data": [
+        { "doc": "AM", "name": "AM", "type": "0" },
+        { "doc": "PM", "name": "PM", "type": "1" }
+      ]
+    }
+  }
+]

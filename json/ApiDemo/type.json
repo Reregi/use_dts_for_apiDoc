@@ -1,0 +1,22 @@
+[
+  {
+    "name": "user",
+    "text": {
+      "url": "com.apiDemo.user",
+      "data": [
+        { "doc": "名称", "type": "string", "name": "name" },
+        { "doc": "密码", "type": "string", "name": "password" }
+      ]
+    }
+  },
+  {
+    "name": "time",
+    "text": {
+      "url": "com.apiDemo.time",
+      "data": [
+        { "doc": "时", "type": "string", "name": "hour" },
+        { "doc": "分", "type": "string", "name": "min" }
+      ]
+    }
+  }
+]
